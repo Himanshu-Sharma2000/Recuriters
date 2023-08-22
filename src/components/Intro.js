@@ -52,15 +52,15 @@ const Intro = () => {
 
             <section className="pt-4 pt-md-11" style={{ background: "url(https://static.vecteezy.com/system/resources/previews/006/262/479/large_2x/white-and-blue-tone-abstract-background-backdrop-for-presentation-design-for-website-concept-of-beauty-and-health-business-brochure-free-photo.jpg)" }} >
 
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-12 col-md-5 col-lg-6 order-md-2">
+                <div className="container anis ">
+                    <div className="row align-items-center ">
+                        <div className="col-12 col-md-5 col-lg-6 order-md-2  animate1">
 
-                            <img src={logo} className="ing-fluid mr-md-150 mr-1g-130 mb-6 mb-md-8 aos-init aos-animate" alt="..." data-aos="fade=up" data-aos-delay="100" />
+                            <img src={logo} className="ing-fluid mr-md-150 mr-1g-130 mb-6 mb-md-8 d4" alt="..." data-aos="fade=up" data-aos-delay="100" />
                         </div>
-                        <div className="col-12 col-md-7 col-lg-6 order-ad-1 aos-init aos animate"  style={{fontFamily:"'Lobster', cursive"}} data-aos="Fade-up">
+                        <div className="col-12 col-md-7 col-lg-6 animate "  style={{fontFamily:"'Lobster', cursive"}} data-aos="Fade-up">
 
-                            <h1 className="display-3 text-center text-md-start">
+                            <h1 className="display-3 text-center text-md-start d1">
 
                                 <strong >Welcome to</strong>
 
@@ -68,10 +68,10 @@ const Intro = () => {
 
                                 <br />
                             </h1>
-                            <span className="fs-3"   ref={el}></span>
-                            <p className="lead text-center text-md-start text-muted ab-6 mb-lg-8"  > Are you looking for highly skilled software engineers, product managers, data scientists, and more? Recuriter is your one-stop solution for finding top talent across the globe.
+                            <span className="fs-3 d2"   ref={el}></span>
+                            <p className="lead text-center text-md-start text-muted ab-6 mb-lg-8 d1"  > Are you looking for highly skilled software engineers, product managers, data scientists, and more? Recuriter is your one-stop solution for finding top talent across the globe.
                             </p>
-                            <div className="container text-center mt-4 ">
+                            <div className="container text-center mt-4 d1 ">
                                 <Link class="btn btn-info text-center btn-lg px-4 fs-4 text-light" to="/" role="button">Hire Now!</Link>
                             </div>
                         </div>
@@ -80,31 +80,31 @@ const Intro = () => {
             </section>
 
              <div style={{background:"url(https://i.stack.imgur.com/gS7rh.png) center center/cover" , height:"600px", marginTop:"-47px"}}>
-            <div className="container text-light" >
+            <div className="container text-light anis " >
                 <h2 className='mt-5 text-center pt-5' > <span className="fs-1 " ref={why}></span></h2>
 
 
                 <div className="d-flex justify-content-evenly my-4 mt-5" >
-                    <div className="container mx-1 text-center">
+                    <div className="container mx-1 text-center d1">
                         <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon.png" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
                         <h3 className='mt-3'>Access to Diverse Talent</h3>
                         <p className='my-2'>Our platform connects you with talent from India and around the world, ensuring a wide range of skill sets and experiences.</p>
                     </div>
 
-                    <div className="container mx-1 text-center">
+                    <div className="container mx-1 text-center d2">
                         <img src="https://img.freepik.com/premium-vector/process-business-illustration-design-vector-illustration_8499-5037.jpg?w=740" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
                         <h3 className='mt-3'>Streamlined Hiring Process</h3>
                         <p className='my-2'>Our user-friendly interface makes it easy to post jobs, review applicants, and schedule interviews, saving you time and effort.</p>
                     </div>
 
-                    <div className="container mx-1 text-center">
+                    <div className="container mx-1 text-center d3">
                         <img src="https://img.freepik.com/free-vector/man-holding-clock-time-management-concept_23-2148823171.jpg?size=626&ext=jpg&ga=GA1.2.637354507.1690955929&semt=sph" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
                         <h3 className='mt-3'>Hire Within 1 weeks</h3>
                         <p className='my-2'>Candidates respond in under 48 hours. Set up interviews in working days, hire within 1 weeks.</p>
                     </div>
 
 
-                    <div className="container mx-1 text-center">
+                    <div className="container mx-1 text-center d4">
                         <img src="https://img.freepik.com/free-vector/product-quality-concept-illustration_114360-7301.jpg?w=740&t=st=1690966772~exp=1690967372~hmac=56b969828202e8eae34b28701e8cc99203bf380a4ad6fcdfc2700a1ba43c2a98" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
                         <h3 className='mt-3'>Verified Profiles</h3>
                         <p className='my-2'>We thoroughly screen all candidates, so you can be confident that you're connecting with qualified professionals.</p>

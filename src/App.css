@@ -1,3 +1,67 @@
-body{
+body {
     font-family: 'Edu SA Beginner', cursive;
+}
+
+.animate {
+    animation: main 1s ease-in;
+}
+
+.animate1 {
+    animation: main1 1s ease-in;
+}
+
+@keyframes main {
+    from {
+
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes main1 {
+    from {
+
+        transform: translateX(200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes main2 {
+    from {
+
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.anis:hover {
+
+    .d1 {
+        animation: main 1s ;
+    }
+
+    .d2 {
+        animation: main2 1s;
+
+    }
+
+    .d3 {
+        animation: main2 1s ;
+
+    }
+
+    .d4 {
+        animation: main1 1s ;
+
+    }
 }
