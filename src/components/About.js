@@ -11,10 +11,10 @@ const About = () => {
             <p className='fs-4 text-light '>
 The aim of RECURTER is to provide simple and effective hiring solutions for organisations in retail, hospitality, and other industries. It's straightforward: we aid in pipeline development and manager candidate screening. We do this with a pleasant user interface and an AI recruitment assistant who has time to handle all the tasks that managers and recruiters are unable to complete.
 
-                 Send an email to support@RECURETER.com to greet them.</p>
+                 Send an email to &#9993;  support@RECURETER.com to greet them.</p>
             <p className='fs-4 text-light '>
 
-                 Send an email to support@RECURETER.com to greet them.</p>
+                 Send an email to &#9993;  support@RECURETER.com to greet them.</p>
                  </div>
             </div>
         </>

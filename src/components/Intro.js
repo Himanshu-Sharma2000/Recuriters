@@ -58,21 +58,21 @@ const Intro = () => {
 
                             <img src={logo} className="ing-fluid mr-md-150 mr-1g-130 mb-6 mb-md-8 aos-init aos-animate" alt="..." data-aos="fade=up" data-aos-delay="100" />
                         </div>
-                        <div className="col-12 col-md-7 col-lg-6 order-ad-1 aos-init aos animate" data-aos="Fade-up">
+                        <div className="col-12 col-md-7 col-lg-6 order-ad-1 aos-init aos animate"  style={{fontFamily:"'Lobster', cursive"}} data-aos="Fade-up">
 
                             <h1 className="display-3 text-center text-md-start">
 
-                                <strong>Welcome to</strong>
+                                <strong >Welcome to</strong>
 
-                                <span className="text-primary"> <strong>Recuriters</strong></span>
+                                <span className="text-primary" > <strong>Recuriters</strong></span>
 
                                 <br />
                             </h1>
-                            <span className="fs-3" ref={el}></span>
-                            <p className="lead text-center text-md-start text-muted ab-6 mb-lg-8"> Are you looking for highly skilled software engineers, product managers, data scientists, and more? Recuriter is your one-stop solution for finding top talent across the globe.
+                            <span className="fs-3"   ref={el}></span>
+                            <p className="lead text-center text-md-start text-muted ab-6 mb-lg-8"  > Are you looking for highly skilled software engineers, product managers, data scientists, and more? Recuriter is your one-stop solution for finding top talent across the globe.
                             </p>
                             <div className="container text-center mt-4 ">
-                                <Link class="btn btn-info text-center btn-lg px-4 text-light" to="/" role="button">Hire Now!</Link>
+                                <Link class="btn btn-info text-center btn-lg px-4 fs-4 text-light" to="/" role="button">Hire Now!</Link>
                             </div>
                         </div>
                     </div>

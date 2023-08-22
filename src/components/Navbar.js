@@ -1,27 +1,25 @@
 import React  from 'react'
 import { Link } from 'react-router-dom'
-
+import loader from "../samsung.png"
 const Navbar = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg fixed-top text-light " style={{background:"rgb(5 2 38)"}}>
 
   <div className="container-fluid">
   <Link className="navbar-brand mx-4 fs-2" to="/">
-      <img src="https://e7.pngegg.com/pngimages/396/230/png-clipart-samsung-knox-logo-android-the-international-consumer-electronics-show-others-angle-company.png" alt="Logo" width="60" height="46" className="d-inline-block align-text-top "/>
-      <strong style={{color:"rgb(1, 4, 30)"}}>Recuriters</strong>
+      <img src={loader} style={{filter:"invert(70%)"}} alt="Logo" width="60" height="46" className="d-inline-block align-text-top "/>
+      <strong style={{color:"white"}}>Recuriters</strong>
     </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
+
     <div className="collapse navbar-collapse  justify-content-center" id="navbarSupportedContent">
-      <ul className="navbar-nav  mb-2 mb-lg-0">
+      <ul className="navbar-nav  mb-2 mb-lg-0" >
         <li className="nav-item mx-2">
-          <Link className="nav-link  fs-5" aria-current="page" to="/">Home</Link>
+          <Link className="nav-link  fs-5" aria-current="page" to="/" style={{color:"white"}} >Home</Link>
         </li>
         
-        <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle fs-5" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li className="nav-item dropdown" >
+          <Link className="nav-link dropdown-toggle fs-5" to="/" role="button" style={{color:"white"}} data-bs-toggle="dropdown" aria-expanded="false">
             Features
           </Link>
           <ul className="dropdown-menu">
@@ -34,7 +32,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle fs-5" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle fs-5" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:"white"}}>
             Resources
           </Link>
           <ul className="dropdown-menu">
@@ -47,13 +45,13 @@ const Navbar = () => {
         </li>
         
         <li className="nav-item">
-          <Link className="nav-link fs-5" to="/about">About</Link>
+          <Link className="nav-link fs-5" to="/about" style={{color:"white"}}>About</Link>
         </li>
 
         
 
       </ul>
-      <button class="btn btn-outline-dark my-2 my-sm-0  ms-5" type="button">Login</button>
+      <button class="btn btn-outline-light my-2 my-sm-0  ms-5" type="button">Login</button>
     </div>
   </div>
 </nav>
