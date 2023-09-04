@@ -81,12 +81,13 @@ const Intro = () => {
 
              <div style={{background:"url(https://i.stack.imgur.com/gS7rh.png) center center/cover" , height:"600px", marginTop:"-47px"}}>
             <div className="container text-light anis " >
-                <h2 className='mt-5 text-center pt-5' > <span className="fs-1 " ref={why}></span></h2>
-
-
+            <div className='ff'>
+                        Contact Now
+                      </div>
+                <h2 className='text-center pt-5' > <span className="fs-1 " ref={why}></span></h2>
                 <div className="d-flex justify-content-evenly my-4 mt-5" >
                     <div className="container mx-1 text-center d1">
-                        <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon.png" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
+                      <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon.png" className="img-thumbnail ms-3 rounded-circle border border-info" alt="..." width="100" height="100" />
                         <h3 className='mt-3'>Access to Diverse Talent</h3>
                         <p className='my-2'>Our platform connects you with talent from India and around the world, ensuring a wide range of skill sets and experiences.</p>
                     </div>

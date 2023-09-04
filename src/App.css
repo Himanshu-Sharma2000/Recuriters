@@ -9,6 +9,31 @@ body {
 .animate1 {
     animation: main1 1s ease-in;
 }
+ 
+.ff{
+    background-color: hsl(180, 100%, 50%); 
+    color: #ffff;
+    font-weight: 400;
+    position: absolute;
+    top: auto;
+    margin: -16px 0 0;
+    padding: 10px 20px 6px;
+    color: #fff;
+    font-size: 1.6em;
+    z-index: 2;
+}
+.ff::before{
+    content: "";
+    display: block;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    width: 7px;
+    right: 100%;
+    border-right: 10px solid #646464;
+    border-top: 16px solid transparent;
+}
+
 
 @keyframes main {
     from {
